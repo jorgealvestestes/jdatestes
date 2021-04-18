@@ -1,0 +1,435 @@
+h3{
+  margin-top: 150px;
+  margin-bottom: 20px;
+  color:#100E83;
+}
+
+.big_title{
+  display: block;
+  margin-bottom: 50px;
+}
+.big_title h1{
+  font-size: 3em;
+  font-weight: bold;
+
+  text-transform: uppercase;
+}
+
+.big_title .tagline{
+  padding-left: 5px;
+
+}
+
+
+.textshadow{text-shadow: 1px 1px 0 #ccc;}
+
+body{
+    font: 20px Arial, sams-serif;
+    color: white;
+}
+
+header{
+    /* background: linear-gradient(140deg, #100E83 0%, #6b69f0 50%,  #100E83 75% ); */
+    color: #ffff;
+}
+header .carousel img{
+    height: 900px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background: linear-gradient(140deg, #100E83 0%, #6b69f0 50%,  #100E83 75% );
+    color: #000;
+    font-size: 24px;  
+    padding-left: 12%;
+}
+
+
+.navbar a {
+  display: inline-block;
+  padding: 10px 15px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.main_menu a:hover{
+  background: #525254;
+}
+
+.secondary{
+    padding: 10px;
+    background-color:rgb(26, 9, 180);opacity:0.6;
+ }
+
+/* #carousel-principal {
+    margin-top: 300rem;
+    width: 700px;
+    position: relative;
+    top: 1500px;
+    left: 1500px;
+
+} */
+
+.quemsomos {
+  background-color: rgb(251,250,255);
+  color: rgb(64,61,84);
+  padding-top: 10px;
+}
+
+.quemsomos p {
+ color: rgb(45,61,154);
+    padding: 50px;
+    text-align: left;
+    width: 50%;
+margin-left: 25%;
+}
+
+.quemsomos .margin-botton{
+ margin-top: 100px;
+}
+.margin{
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.padding{
+    padding-left: 10%;
+}
+
+.parceiros{
+    background-color: #0B61A4;
+    color: white;
+}
+
+.bg-footer{
+    background-color:rgb(74,79,204);
+    color: rgb(251,250,255);
+    padding-top: 3%;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.bg-footer p {
+    color: white;
+    font: 1em sans-serif;
+}
+
+#menu {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    width: 8em;
+    margin-top: -2.5em;
+  }
+
+  .videos {
+    background-color: #e6e9ec;
+    width: 100%;
+    color: rgb(51, 48, 48);
+    margin-left: -60px;
+    padding-top: 50px;
+} 
+
+.servicos {
+    background-color: #e6e9ec;
+    width: 80%;
+    padding-left: 8%;
+    color: rgb(51, 48, 48);
+}
+
+.servicos p {
+  color: rgb(45,61,154);
+  margin-top: 2px;
+  text-align: left;
+  width: 120%;
+margin-left: -5%;
+}
+
+/* DEPOIMENTOS */
+.testemonial{
+    background: linear-gradient(-100deg, white 50%, deepink 50% );
+    height: 70vh;
+    font-family: "Noto Sans", sans-serif;
+    width: 100%;
+
+}
+
+.testimonial container{
+    margin-top: 15%;
+}
+
+.testimonial h2 {
+	color: rgb(64,61,84);
+	text-align: center;
+	text-transform: uppercase;
+    font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	position: relative;
+	margin: 30px 0 60px;
+}
+.testimonial h2::after {
+	content: "";
+	width: 140px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #4e63db;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+    opacity: .8;
+}
+
+.testimonial p{
+    color: #000;
+}
+
+.testimonial .col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+
+.testimonial .carousel {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+
+.testimonial .carousel-item {
+	color: #999;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 290px;
+}
+
+.testimonial .carousel .item .img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+
+.testimonial .carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+
+.testimonial .carousel .testimonial {
+	padding: 30px 0 10px;
+}
+.testimonial .carousel .overview {	
+	font-style: italic;
+}
+
+.testimonial .carousel .overview b {
+	text-transform: uppercase;
+	color: #4e63db;
+}
+.testimonial .carousel .carousel-control {
+	width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+	background: none;
+}
+.testimonial .carousel .carousel-control i {
+    font-size: 68px;
+	line-height: 42px;
+    position: absolute;
+    display: inline-block;
+	color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+
+.testimonial .carousel .carousel-indicators {
+    bottom: -40px;
+}
+
+.testimonial .carousel .carousel-indicators li, .testimonial .carousel .carousel-indicators li.active {
+    width: 10px;
+    height: 10px;
+    margin: 1px 3px;
+    border-radius: 50%;
+} 
+
+.testimonial .carousel .carousel-indicators li{
+    background: #999;
+    border-color: transparent;
+    box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+
+.testimonial .carousel .carousel-indicators li:active{
+    background: #555;
+    box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+
+h1{
+    font-family: serif ;
+    color: #000;
+}
+
+
+.formulario{
+    background-color: #9bb0c5;
+    width: 80%;
+    padding-left: 8%;
+    padding-top: 10px;
+    color: rgb(51, 48, 48);
+    box-sizing: border-box;
+    height: auto;
+    max-height: 700px;
+}
+
+.formulario .container{
+    width: 400px;
+    background: white;
+    padding: 60px 40px;
+}
+
+.formulario header{
+    font-size: 40px;
+    margin-bottom: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.formulario .input-field, form .button{
+    margin: 25px 0;
+    position: relative;
+    height: 50px;
+    width: 100%;
+  }
+
+.formulario  .input-field input{
+    height: 100%;
+    width: 100%;
+    border: 1px solid silver;
+    padding-left: 15px;
+    outline: none;
+    font-size: 19px;
+    transition: .4s;
+  }
+
+.formulario  input:focus{
+    border: 1px solid #1DA1F2;
+  }
+  .formulario  .input-field label, span.show{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .formulario  .input-field label{
+    left: 15px;
+    pointer-events: none;
+    color: grey;
+    font-size: 18px;
+    transition: .4s;
+  }
+  .formulario  span.show{
+    right: 20px;
+    color: #111;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    visibility: hidden;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .formulario  input:valid ~ span.show{
+    visibility: visible;
+  }
+  .formulario  input:focus ~ label,
+  .formulario  input:valid ~ label{
+    transform: translateY(-33px);
+    background: white;
+    font-size: 16px;
+    color: #1DA1F2;
+  }
+  .formulario  form .button{
+    margin-top: 30px;
+    overflow: hidden;
+    z-index: 111;
+  }
+  .formulario  .button .inner{
+    position: absolute;
+    height: 100%;
+    width: 300%;
+    left: -100%;
+    z-index: -1;
+    transition: all .4s;
+    background: -webkit-linear-gradient(right,#ff0000,#fc00ff,#ff0066,#33cc33);
+  }
+  .formulario  .button:hover .inner{
+    left: 0;
+  }
+  .formulario  .button button{
+    margin-bottom: 200px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .formulario  .container .auth{
+    margin: 35px 0 20px 0;
+    font-size: 19px;
+    color: grey;
+  }
+  .formulario  .links{
+    display: flex;
+    cursor: pointer;
+  }
+  .formulario  .facebook, .google{
+    height: 40px;
+    width: 100%;
+    border: 1px solid silver;
+    border-radius: 3px;
+    margin: 0 10px;
+    transition: .4s;
+  }
+  .formulario  .facebook:hover{
+    border: 1px solid #4267B2;
+  }
+  .formulario  .google:hover{
+    border: 1px solid #dd4b39;
+  }
+  .formulario  .facebook i, .facebook span{
+    color: #4267B2;
+  }
+  .formulario  .google i, .google span{
+    color: #dd4b39;
+  }
+  .formulario  .links i{
+    font-size: 23px;
+    line-height: 40px;
+    margin-left: -90px;
+  }
+  .formulario  .links span{
+    position: absolute;
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 8px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .formulario  .signup{
+    margin-top: 50px;
+    font-family: 'Noto Sans', sans-serif;
+  }
+  .formulario  .signup a{
+    color: #3498db;
+    text-decoration: none;
+  }
+  .formulario  .signup a:hover{
+    text-decoration: underline;
+  }
